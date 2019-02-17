@@ -1,0 +1,538 @@
+body {
+    background-color: #57607c;
+}
+#main {
+    margin: 0 8%;
+    background-color: #f7f6fb;
+    min-height: 100vh;
+}
+
+#header-nav, #main-body {
+    padding: 0 40px;
+}
+
+h1, h2, h3, h4, h5, ul.collapsible .collapsible-header, .tabs .tab {
+    font-family: "Saira";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tabs .tab a {
+    color: #757575;
+    text-decoration: none;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #1a1a1a;
+}
+.tabs .indicator {
+    background-color: #1a1a1a;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: transparent;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+    text-decoration-color: #1ef3be;
+}
+a:hover {
+    text-decoration-color: #1a1a1a;
+}
+
+.hidden {
+    height: 0;
+    display: none;
+    visibility: hidden;
+}
+.input-field.search {
+    margin-bottom: 0;
+}
+p.search-indicator {
+    margin-top: 0;
+    padding-top: 0;
+}
+.tabs {
+    background-color: transparent;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+}
+.collapsible-header {
+    position: relative;
+    min-height: 3.5em;
+}
+.collapsible-header span.primary {
+    position: absolute;
+    left: 1em;
+}
+.collapsible-header span.secondary {
+    position: absolute;
+    right: 1em;
+    color: #757575;
+}
+.collapsible-body p:first-child {
+    margin-top: 0;
+}
+p.source-asset {
+    background-color: #f5f4fa;
+    padding: .2em .5em;
+    border-radius: 2px;
+    border: 1px solid #ededed;
+}
+p.source-asset a {
+    color: #57607c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+p.source-asset:hover, p.source-asset:hover a {
+    background-color: #57607c;
+    color: #fff;
+}
+
+
+
+p.source-asset i.material-icons.tiny {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+.collapsible li.active .collapsible-header {
+    background-color: #0ce3b8;
+}
+
+.collapsible li.active .collapsible-header {
+    background-color: #0ce3b8;
+}
+
+.collapsible li.active .collapsible-header span.secondary {
+    color: #1a1a1a;
+}
+
+.collapsible-body {
+    background-color: #fff;
+    position: relative;
+}
+
+div#header-nav {
+    background-color: #232428;
+    color: #fff;
+    padding: 12px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+#header-nav span, #header-nav i {
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+#header-nav a {
+    color: #b9bbbd;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#header-nav a span {
+    font-size: .9em;
+    margin-left: .3em;
+}
+
+#header-nav a:hover {
+    color: #0ce3b8;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #0ce3b8;
+    -webkit-box-shadow: 0 1px 0 0 #0ce3b8;
+    box-shadow: 0 1px 0 0 #0ce3b8;
+}
+.input-field .prefix.active {
+    color: #0ce3b8;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #0ce3b8;
+}
+
+.input-field .prefix {
+    color: #a1a1a1;
+}
+
+#header-nav i {
+    margin-left: 1em;
+}
+
+div#clientListPane, div#ehrListPane, div#payerListPane {
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+div#clientListPane {
+    padding-right:8px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: #57607c;
+}
+::-webkit-scrollbar-track {
+    background-color: #b9bbbd;
+}
+
+
+
+
+
+
+
+
+.episodeStatTitle {
+    width: 300px;
+    float: left;
+    line-height: 40px;
+    font-family: "Saira";
+    font-weight: 600;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.episodeStatHolder {
+    height: 40px;
+    width: calc(100% - 300px);
+    position: relative;
+    float: left;
+}.episodeStatHolder:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #a1a1a1;
+    width: 100%;
+}
+
+.episodeStat {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #b9bbbd;
+    border: 2px solid #57607c;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 14px;
+    transition: background-color .2s, border .2s, height .2s, width .2s, border-radius .2s, top .2s, margin-left .2s;
+}
+
+.episodeStat.highlighted {
+    background-color: #0ce3b8;
+    border: 2px solid #1a1a1a;
+    z-index: 999;
+    height: 24px;
+    width: 24px;
+    top: 8px;
+    margin-left: -6px;
+    border-radius: 12px;
+}
+
+.episodeStatTitle {
+    color: #57607c;
+}
+
+.episodeStatTitle span {
+    color: #1a1a1a;
+    box-shadow: inset 0 -3px 0 #f7f6fb, inset 0 -5px 0 #30ffb3;
+}
+
+p.disclaimer {
+    font-size: .8rem;
+    color: #9e9e9e;
+}
+span.stat-value {
+    font-weight: 600;
+    box-shadow: inset 0 -2px 0 white, inset 0 -4px 0 #30ffb3;
+}
+
+.sectionContent {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+a.btn.uxDrilldown {
+    position: absolute;
+    bottom: 32px;
+    right: 12px;
+}
+
+a.btn.uxDrilldown {
+    position: absolute;
+    bottom: 32px;
+    right: 12px;
+    background-color: #f5f4fa;
+    border: 1.5px solid #57607c;
+    color: #57607c;
+    font-family: "Saira";
+    font-weight: 600;
+    box-shadow: none;
+}
+
+a.btn.uxDrilldown:hover {
+    background-color: #57607c;
+    color: #fff;
+}
+
+.utilization-thread {
+    position: relative;
+    height: 24px;
+}
+
+.utilization-thread:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100%;
+}
+
+.utilization-event {
+    height: 12px;
+    width: 12px;
+    background-color: #b9bbbd;
+    border: 2px solid #57607c;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+    transition: all .1s;
+    cursor: pointer;
+}
+.utilization-event:hover, .utilization-event.highlighted:hover {
+    background-color: #0ce3b8;
+    border: 2px solid #1a1a1a;
+    z-index: 999;
+    height: 24px;
+    width: 24px;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.utilization-event.highlighted {
+    background-color: #e421f2;
+    border: 2px solid #1a1a1a;
+    z-index: 999;
+    height: 16px;
+    width: 16px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border-radius: 12px;
+}
+
+.utilization-event-label {
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #9e9e9e;
+    white-space: nowrap;
+    text-align: right;
+    /* max-width: 160px; */
+    padding-left: 8px;
+    padding-right: 16px;
+    background-color: #f7f6fb;
+    margin-top: 2px;
+}
+h6.utilization-band-title, #episodeNotes h6 {
+    font-family: "Saira";
+    color: #57607c;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: none;
+}
+.utilization-event-badge {
+    height: 8px;
+    width: 8px;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-top: -4px;
+    transition: all .1s;
+}
+.utilization-event:hover .utilization-event-badge, .utilization-event.highlighted:hover .utilization-event-badge {
+    margin-top: -4px;
+    margin-left: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.utilization-event.highlighted .utilization-event-badge {
+    margin-top: -4px;
+    margin-left: 6px;
+    width: 10px;
+    height: 10px;
+}
+
+.material-tooltip {
+    max-width: 400px;
+    text-align: left;
+}
+
+.sectionLegend .legend-mark {
+    position: absolute;
+    border-left: 2px solid #57607c;
+    padding-left: 8px;
+}
+.sectionLegend .legend-mark.right {
+    border-left: none;
+    padding-left: 0;
+    border-right: 2px solid #57607c;
+    padding-right: 8px;
+    text-align: right;
+}
+.sectionLegend {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #57607c;
+}
+
+
+.utilization-thread-stat {
+    position: absolute;
+    right: 8px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #57607c;
+    background-color: #f7f6fb;
+    margin-top: 2px;
+}
+
+.utilization-thread-stat .secondary, .utilization-thread-stat .separator {
+    color: #9e9e9e;
+}
+
+#main {
+    padding-bottom:120px;
+}
+.episodeTopItems span {
+    text-transform: uppercase;
+}
+div#episodeNotes .sectionContent {
+    padding-right: 8px;
+}
+div#utilizationDetails .sectionContent {
+    min-height: 80vh;
+    max-height: 80vh;
+}
+
+
+.event-variance-blip {
+    position: absolute;
+    background-color: #b9bbbd;
+    border: 2px solid #57607c;
+}
+#episodeTopEvents .row.event-row {
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    border-bottom: 1px solid #e4e4e4;
+}
+div#episodeTopEvents .sectionContent {
+    width: 100%;
+    max-height: 70vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: .9em;
+}
+
+.event-variance-blip.negative {
+    border: 2px solid #0097a7;
+}
+.event-variance-blip.high-positive {
+    border: 2px solid #c2185b;
+}
+
+.event-variance-blip.highlighted {
+    background-color: #0ce3b8;
+    border: 2px solid #1a1a1a;
+}
+#episodeTopEvents .sectionHeader {
+    font-family: "Saira";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-bottom: 8px;
+}
+#episodeTopEvents .sectionContent .col.s4, #episodeTopEvents .sectionContent a {
+    /* color: #57607c; */
+    font-weight: 600;
+}
+
+div#addModal.modal {
+    width: auto;
+    max-width: 500px;
+}
+.episodeCodes span {
+    color: #1a1a1a;
+}
+
+#addModal a.btn, #addModal a.btn-flat, #addModal a {
+    background-color: #f5f4fa;
+    border: 1.5px solid #57607c;
+    color: #57607c;
+    font-family: "Saira";
+    font-weight: 600;
+    box-shadow: none;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+#episodeTopEvents a {
+    font-weight: 600;
+    font-family: "Saira";
+    text-transform: uppercase;
+    padding: 0 12px;
+    border-radius: 3px;
+    background-color: #f5f4fa;
+    border: 1.5px solid #57607c;
+    text-decoration: none;
+}
+
+
+#addModal a.btn:hover, #addModal a.btn-flat:hover, #addModal a:hover, #episodeTopEvents a:hover {
+    background-color: #57607c;
+    color: #fff;
+}
+
+.modal-content h6 {
+    font-family: "Saira";
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border-color: #57607c;
+    background-color: #57607c;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):before {
+
+}
+
+#download-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
